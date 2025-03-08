@@ -12,7 +12,4 @@ programa{//ação que inicia o programa
 			escreva("Menos de idade.\n")//texto para menor de idade
 		}
 			}
-		}
-		
-	}
 }
