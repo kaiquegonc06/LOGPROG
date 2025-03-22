@@ -1,0 +1,39 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real saldo = 1000
+		inteiro opcao
+		real saque
+
+		enquanto(verdadeiro){
+			escreva(" ====Caixa Eletrônico====\n")
+			escreva( "1 - Consultar saldo\n")
+			escreva( "2 - Sacar\n")
+			escreva( "3 - Sair\n")
+			escreva( "Escolha uma opção\n")
+			leia(opcao)
+
+			se(opcao == 1){
+				escreva("\n Seu saldo Atual é: R$",saldo,"\n")
+			} senao se(opcao ==2){
+				escreva("\n Digite i valor desejado: R$")
+				leia(saque)
+			} se(saque > saldo){
+				escreva("\n saldo Insulficiente, tente novamente mais tarde")
+			} senao se(saque <=0){
+				escreva("\n valor inválido - Digite um valor mair que zero\n")
+			} senao{
+				saldo = saldo - saque
+				escreva("\n Saque relaizado com sucesso")
+				escreva("\n seu Saldo atual agora é de: R$", saldo, "\n")	
+			} se( opcao ==3){
+				
+			}
+					
+				}
+			
+			}
+			
+		}
