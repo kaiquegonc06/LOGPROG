@@ -1,0 +1,13 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia texto
+		escreva("escreva um texto: ")
+		leia (texto)
+
+		escreva ("Você escreveu isso: ", texto)
+		
+	}
+}
